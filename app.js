@@ -1,7 +1,7 @@
-// Question 8, opposite boolean
+// Question 9, is not the number 0
 
-function oppositeBoolean (bool) {
-   return !bool
+function isNotZero (num) {
+   return num !== 0
 }
 
-console.log(oppositeBoolean(false));
+console.log(isNotZero(null));
