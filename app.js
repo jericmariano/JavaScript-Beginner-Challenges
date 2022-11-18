@@ -1,7 +1,7 @@
-// Question 9, is not the number 0
+// Question 10, calculate the remainder
 
-function isNotZero (num) {
-   return num !== 0
+function calcRemainder (num1, num2) {
+   return num1 % num2
 }
 
-console.log(isNotZero(null));
+console.log(calcRemainder(7, 8));
