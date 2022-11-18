@@ -1,7 +1,7 @@
-// Question 12, if even return 1, if odd return -1
+// Question 13, check if user is logged in and subscribed
 
-function booleanInteger (num1) {
-   return num1 % 2 === 0 ? 1 : -1;
+function isLoggedInAndSubscribed (bool1, bool2) {
+   return bool1 === 'LOGGED_IN' && bool2 === 'SUBSCRIBED'
 }
 
-console.log(booleanInteger(2));
+console.log(isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED'));
