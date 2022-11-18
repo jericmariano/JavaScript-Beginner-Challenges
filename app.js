@@ -1,7 +1,7 @@
 // Question 3; calculate perimeter of a rectangle
 
-function calcPerimeter (length, width) {
-    return (length * 2) + (width * 2) // or return 2 * (length + width)
+function calcTriangleArea (base, height) {
+    return 0.5 * base * height
 }
 
-console.log(calcPerimeter(20, 10));
+console.log(calcTriangleArea(20, 20));
