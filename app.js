@@ -1,7 +1,7 @@
-// Question 7, less than or equal to zero
+// Question 8, opposite boolean
 
-function lessThanOrEqualToZero (num1) {
-   return num1 <= 0
+function oppositeBoolean (bool) {
+   return !bool
 }
 
-console.log(lessThanOrEqualToZero(-2));
+console.log(oppositeBoolean(false));
