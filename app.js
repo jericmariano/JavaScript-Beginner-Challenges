@@ -1,7 +1,7 @@
-// Question 10, calculate the remainder
+// Question 11, is number even or odd
 
-function calcRemainder (num1, num2) {
-   return num1 % num2
+function isOdd (num1) {
+   return num1 % 2 !== 0
 }
 
-console.log(calcRemainder(7, 8));
+console.log(isOdd(3));
