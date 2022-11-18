@@ -1,7 +1,7 @@
-// Question 2; convert hours into seconds
+// Question 3; calculate perimeter of a rectangle
 
-function hoursIntoSeconds (hours) {
-    return hours * 3600
+function calcPerimeter (length, width) {
+    return (length * 2) + (width * 2) // or return 2 * (length + width)
 }
 
-console.log(hoursIntoSeconds(24));
+console.log(calcPerimeter(20, 10));
