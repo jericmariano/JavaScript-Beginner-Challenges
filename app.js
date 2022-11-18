@@ -1,7 +1,7 @@
-// Question 3; calculate perimeter of a rectangle
+// Question 5, extend a string
 
-function calcTriangleArea (base, height) {
-    return 0.5 * base * height
+function appendFrontend (str) {
+    return str + 'Frontend'
 }
 
-console.log(calcTriangleArea(20, 20));
+console.log(appendFrontend('Apple'));
