@@ -1,7 +1,7 @@
-// Question 11, is number even or odd
+// Question 12, if even return 1, if odd return -1
 
-function isOdd (num1) {
-   return num1 % 2 !== 0
+function booleanInteger (num1) {
+   return num1 % 2 === 0 ? 1 : -1;
 }
 
-console.log(isOdd(3));
+console.log(booleanInteger(2));
