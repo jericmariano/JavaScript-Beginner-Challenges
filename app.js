@@ -1,7 +1,7 @@
-// Question 1; add two numbers function 
+// Question 2; convert hours into seconds
 
-function addition (num1, num2) {
-    return num1 + num2
+function hoursIntoSeconds (hours) {
+    return hours * 3600
 }
 
-console.log(addition(3, 5));
+console.log(hoursIntoSeconds(24));
